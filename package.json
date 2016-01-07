@@ -7,9 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.ls --compilers ls:livescript",
+    "coverage": "gulp coverage",
+    "coveralls": "gulp coverage  && cat coverage/lcov.info | coveralls"
   },
-  "author": "",
+  "author": "Furqan Zafar",
   "license": "ISC",
   "dependencies": {
     "JSONStream": "^1.0.7",
