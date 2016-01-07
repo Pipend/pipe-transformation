@@ -1,0 +1,48 @@
+{
+  "name": "pipe-transformation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "bluebird": "^3.1.1",
+    "highland": "^2.5.1",
+    "moment": "^2.11.0",
+    "prelude-extension": "0.0.7",
+    "rx": "^4.0.7",
+    "socket.io-client": "^1.3.7",
+    "stream": "0.0.2",
+    "transpilation": "0.0.2"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {},
+  "devDependencies": {
+    "browserify-shim": "^3.8.11",
+    "coveralls": "^2.11.4",
+    "gulp": "^3.9.0",
+    "gulp-livescript": "^3.0.0",
+    "gulp-livescript-istanbul": "0.0.1",
+    "gulp-mocha": "^2.2.0",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.0.0",
+    "prelude-ls": "^1.1.2",
+    "should": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipend/pipe-transformation"
+  }
+}
