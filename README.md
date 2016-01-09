@@ -19,10 +19,10 @@
 ```
 
 #### Functions
-* `compile-transformation-sync` : TransformationCode :: String -> Language :: String -> [Error, (result -> Parameters -> result)]
-Language can be one of "javascript", "babel" or "livescript"
+* `compile-transformation-sync` : `TransformationCode :: String -> Language :: String -> [Error, (result -> Parameters -> result)]`
+> Language can be one of "javascript", "babel" or "livescript"
 
-* `compile-transformation` : TransformationCode :: String -> Language :: String -> p (result, Parameters -> result)
+* `compile-transformation` : `TransformationCode :: String -> Language :: String -> p (result, Parameters -> result)`
 
 ## Context for the Transformation layer in Pipe
 
