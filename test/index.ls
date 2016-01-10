@@ -1,6 +1,5 @@
 require! \assert
 Promise = require \bluebird
-{compile-transformation-sync, compile-transformation} = require \../index.ls
 {last} = require \prelude-ls
 {is-equal-to-object} = require \prelude-extension
 {
@@ -8,6 +7,7 @@ Promise = require \bluebird
     fold-obj-to-list, fill-intervals-ints, fill-intervals, date-from-object-id, 
     object-id-from-date, to-stacked-area, tco
 } = (require \../transformation-context.ls)!
+{compile-transformation-sync, compile-transformation} = require \../index.ls
 
 describe \transformation, ->
 
