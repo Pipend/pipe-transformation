@@ -1,3 +1,6 @@
+Pipe Transformation
+=================================
+
 [![Build Status](https://travis-ci.org/Pipend/pipe-transformation.svg?branch=master)](https://travis-ci.org/Pipend/pipe-transformation)
 [![Coverage Status](https://coveralls.io/repos/Pipend/pipe-transformation/badge.svg?branch=master&service=github)](https://coveralls.io/github/Pipend/pipe-transformation?branch=master)
 
