@@ -2,8 +2,8 @@ require! \moment
 
 # prelude
 {Obj, average, concat-map, drop, each, filter, find, fold, foldr1, gcd, id, keys, map, maximum, 
-minimum, obj-to-pairs, sort, sum, tail, take, unique, mod, round, sort-by, group-by, floor, ceiling, mean, sqrt} = require \prelude-ls
-
+minimum, obj-to-pairs, sort, sum, tail, take, unique, mod, round, sort-by, group-by, floor, 
+ceiling, mean, sqrt} = require \prelude-ls
 {transpose} = require \prelude-extension
 
 Rx = require \rx
@@ -206,5 +206,5 @@ module.exports = ->
     } <<< @window <<< (require \prelude-ls) <<< 
         highland: require \highland
         JSONStream: require \JSONStream
-        Rx: require \rx
+        Rx: Rx
         stream: require \stream
