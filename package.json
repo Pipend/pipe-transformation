@@ -1,6 +1,6 @@
 {
   "name": "pipe-transformation",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "pipe-transformation",
   "main": "index.js",
   "directories": {
@@ -26,6 +26,7 @@
     "rx": "global:Rx",
     "socket.io-client": "global:io",
     "stream": "global:stream",
+    "./transformation-context": "global:transformationContext",
     "transpilation": "global:transpilation"
   },
   "dependencies": {
