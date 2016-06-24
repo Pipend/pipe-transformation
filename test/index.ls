@@ -1,5 +1,4 @@
 require! \assert
-Promise = require \bluebird
 {last} = require \prelude-ls
 {is-equal-to-object} = require \prelude-extension
 {
