@@ -8,6 +8,7 @@ ceiling, mean, sqrt} = require \prelude-ls
 
 Rx = require \rx
 io = require \socket.io-client
+R = require \ramda
 
 # [Number] -> {mean, sigma, median, length}
 summary-statistics = (xs) ->
@@ -207,4 +208,5 @@ module.exports = ->
         highland: require \highland
         JSONStream: require \JSONStream
         Rx: Rx
+        R: R
         stream: require \stream
